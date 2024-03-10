@@ -12,13 +12,3 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
-#boxes {
-  display: flex;
-  flex-wrap: wrap; /* Для розміщення блоків в рядки */
-}
-#boxes > div {
-  width: 30px; /* Початкова ширина блоків */
-  height: 30px; /* Початкова висота блоків */
-  margin: 5px; /* Відступи між блоками */
-}

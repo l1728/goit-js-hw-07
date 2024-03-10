@@ -1,15 +1,14 @@
-// function getRandomHexColor() {
-//   return `#${Math.floor(Math.random() * 16777215)
-//     .toString(16)
-//     .padStart(6, 0)}`;
-// }
+
 // Отримання посилань на елементи DOM
   const colorSpan = document.querySelector('.color'); // span, де відображається колір
   const changeColorButton = document.querySelector('.change-color'); // кнопка зміни кольору
 
   // Функція для генерації випадкового кольору у форматі HEX
   function getRandomHexColor() {
-    return `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
+    return `#${Math
+      .floor(Math.random() * 16777215)
+      .toString(16)
+      .padStart(6, '0')}`;
   }
 
   // Додавання обробника події для кнопки зміни кольору
